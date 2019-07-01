@@ -96,7 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				5D7C8FF322CA86EB008D5546 /* AppDelegate.swift */,
-				5D7C8FF522CA86EB008D5546 /* ViewController.swift */,
+				5D7C902522CA899C008D5546 /* Extensions */,
+				5D7C902222CA8954008D5546 /* Model */,
+				5D7C902322CA8966008D5546 /* View */,
+				5D7C902122CA8947008D5546 /* Controller */,
 				5D7C8FFA22CA86ED008D5546 /* Assets.xcassets */,
 				5D7C8FFC22CA86ED008D5546 /* LaunchScreen.storyboard */,
 				5D7C8FFF22CA86ED008D5546 /* Info.plist */,
@@ -120,6 +123,43 @@
 				5D7C901522CA86ED008D5546 /* Info.plist */,
 			);
 			path = MemeGenUITests;
+			sourceTree = "<group>";
+		};
+		5D7C902122CA8947008D5546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C8FF522CA86EB008D5546 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D7C902222CA8954008D5546 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D7C902422CA897D008D5546 /* Networking */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D7C902322CA8966008D5546 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D7C902422CA897D008D5546 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5D7C902522CA899C008D5546 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
