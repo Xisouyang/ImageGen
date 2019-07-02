@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MemeGen.xcodeproj">
+      location = "self:/Users/stephenouyang/dev/MOB_2.3/MemeGen/ImageGen.xcodeproj">
    </FileRef>
 </Workspace>

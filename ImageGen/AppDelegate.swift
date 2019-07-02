@@ -6,6 +6,12 @@
 //  Copyright © 2019 Stephen Ouyang. All rights reserved.
 //
 
+/*
+
+ TODO:
+ - acquire json data
+ */
+
 import UIKit
 
 @UIApplicationMain

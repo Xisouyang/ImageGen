@@ -14,6 +14,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
+        
+        ServiceLayer.request(router: Router.getNasaData) { (result: Result<[String: String]>) in
+            switch result {
+            case .success(let result):
+                print("success")
+                print(result)
+            case .failure(let error):
+                print("fail")
+            }
+        }
     }
 }
 
